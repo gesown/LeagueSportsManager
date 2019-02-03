@@ -1,0 +1,260 @@
+﻿@section SPAViews {
+    @Html.Partial("_Home")
+}
+@section Scripts{
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/app")
+    <script>
+        // Here's my data model
+        var ViewModel = function (first, last) {
+            var self = this;
+            self.firstName = ko.observable(first);
+            self.lastName = ko.observable(last);
+            self.fullName = ko.computed(function () {
+                // Knockout tracks dependencies automatically. It knows that fullName depends on firstName and lastName, because these get called when evaluating fullName.
+                return self.firstName() + " " + self.lastName();
+            }, self);
+        };
+        ko.applyBindings(new ViewModel("Planet", "Earth")); // This makes Knockout get to work
+
+        function runfunction(navSource, navAction) {
+
+            var koRegisterCreate = function () {
+                $("#registerMain").show();
+            };
+            switch (navSource) {
+                case "Register":
+                    {
+                        switch (navAction) {
+                            case "Create":
+                                {
+                                    koRegisterCreate();
+                                }
+
+                            default:
+                        }
+                    }
+
+                default:
+            }
+            alert("Nav Source: " + navSource + "  Nav Action: " + navAction);
+
+        };
+        /*$(document).ready(function () {
+            ko.applyBindings(new ViewModel("Planet", "Earth")); // This makes Knockout get to work
+        });*/
+    </script>
+}
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Register
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="ddmRegister">
+                        <li onclick="runfunction('Register', 'Create')" class="active">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Sports
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmSports">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Roles
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmRoles">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Events
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmEvents">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Formats
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmFormats">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Schedule
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmSchedule">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Competition
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmCompetition">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Rank
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmRank">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Score
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmScore">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Results
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmResults">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Support
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmSupport">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Administer
+                        <span class="caret"></span>
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="ddmAdminister">
+                        <li onclick="runfunction('Register', 'Create')">Create</li>
+                        <li onclick="runfunction('Register', 'Review')">Review</li>
+                        <li onclick="runfunction('Register', 'Update')">Update</li>
+                        <li role="separator" class="divider"></li>
+                        <li onclick="runfunction('Register', 'Remove')">Remove</li>
+                    </ul>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div id="koMain">
+    <div id="registerMain" hidden>
+        <p>
+            First name: <input data-bind="value: firstName" />
+        </p>
+        <p>
+            Last name: <input data-bind="value: lastName" />
+        </p>
+        <h2>
+            Hello, <span data-bind="text: fullName"> </span>!
+        </h2>
+    </div>
+</div>
