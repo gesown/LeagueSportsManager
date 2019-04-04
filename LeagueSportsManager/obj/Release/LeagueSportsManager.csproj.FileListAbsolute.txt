@@ -1,0 +1,187 @@
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\ApplicationInsights.config
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\csc.exe
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\vbc.exe
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\LeagueSportsManager.dll.config
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\LeagueSportsManager.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\LeagueSportsManager.pdb
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Antlr3.Runtime.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.SqlServer.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.Web.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.ApplicationInsights.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Newtonsoft.Json.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Owin.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Net.Http.Formatting.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Helpers.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.Owin.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.WebHost.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Mvc.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Optimization.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Razor.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\WebGrease.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Antlr3.Runtime.pdb
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.SqlServer.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.Web.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.ApplicationInsights.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\Newtonsoft.Json.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Net.Http.Formatting.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Helpers.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.Owin.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.WebHost.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Mvc.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Optimization.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Razor.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.csproj.GenerateResource.Cache
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.dll
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.pdb
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.reinit.resources
+C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.detailregister.resources
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\ApplicationInsights.config
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\csc.exe
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\System.Collections.Immutable.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\vbc.exe
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\VBCSCompiler.exe
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\VBCSCompiler.exe.config
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\LeagueSportsManager.dll.config
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\LeagueSportsManager.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\LeagueSportsManager.pdb
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Antlr3.Runtime.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.SqlServer.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.Agent.Intercept.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.DependencyCollector.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.Web.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.WindowsServer.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.ApplicationInsights.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Core.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Cookies.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Facebook.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Google.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.OAuth.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Twitter.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Web.Infrastructure.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Newtonsoft.Json.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Owin.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Net.Http.Formatting.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Helpers.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.Owin.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.WebHost.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Mvc.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Optimization.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Razor.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Deployment.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Razor.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\WebGrease.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Antlr3.Runtime.pdb
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\EntityFramework.SqlServer.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.DependencyCollector.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.Web.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AI.WindowsServer.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.ApplicationInsights.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Core.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Cookies.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Facebook.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Google.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.OAuth.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Microsoft.Owin.Security.Twitter.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\Newtonsoft.Json.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Net.Http.Formatting.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Helpers.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.Owin.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Http.WebHost.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Mvc.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Optimization.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Razor.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Deployment.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Razor.xml
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.reinit.resources
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.detailregister.resources
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.addevents.resources
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.csproj.GenerateResource.cache
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.csproj.CoreCompileInputs.cache
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.csproj.CopyComplete
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.dll
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.pdb
