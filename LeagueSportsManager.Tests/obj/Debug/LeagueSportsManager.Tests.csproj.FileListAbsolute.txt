@@ -134,7 +134,6 @@ C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager.Tests\o
 C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager.Tests\obj\Debug\LeagueSportsManager.Tests.csproj.CopyComplete
 C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager.Tests\obj\Debug\LSMTableTennis.Tests.dll
 C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager.Tests\obj\Debug\LSMTableTennis.Tests.pdb
-C:\src\LeagueSportsManager\LeagueSportsManager.Tests\bin\Debug\ApplicationInsights.config
 C:\src\LeagueSportsManager\LeagueSportsManager.Tests\bin\Debug\roslyn\csc.exe
 C:\src\LeagueSportsManager\LeagueSportsManager.Tests\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\src\LeagueSportsManager\LeagueSportsManager.Tests\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll

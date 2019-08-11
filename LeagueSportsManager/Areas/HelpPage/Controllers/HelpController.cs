@@ -28,6 +28,7 @@ namespace LeagueSportsManager.Areas.HelpPage.Controllers
         public ActionResult Index()
         {
             ViewBag.DocumentationProvider = Configuration.Services.GetDocumentationProvider();
+            var descrs= Configuration.Services.GetApiExplorer().ApiDescriptions;
             return View(Configuration.Services.GetApiExplorer().ApiDescriptions);
         }
 

@@ -185,3 +185,4 @@ C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.c
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.csproj.CopyComplete
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.dll
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.pdb
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.csprojAssemblyReference.cache

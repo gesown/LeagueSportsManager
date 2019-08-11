@@ -188,7 +188,6 @@ C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager\obj\Deb
 C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.csproj.CopyComplete
 C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.dll
 C:\xfer\LeagueSportsManagerSammy\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.pdb
-C:\src\LeagueSportsManager\LeagueSportsManager\bin\ApplicationInsights.config
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\csc.exe
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
@@ -275,7 +274,6 @@ C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.Razor.xml
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.xml
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Deployment.xml
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\System.Web.WebPages.Razor.xml
-C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.csprojAssemblyReference.cache
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.Migrations.reinit.resources
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.Migrations.detailregister.resources
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.Migrations.addevents.resources

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
   <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
@@ -26,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <Use64BitIISExpress />
+    <TypeScriptToolsVersion>3.5</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -210,8 +212,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Admin.cs" />
-    <Compile Include="AdminType.cs" />
+    <Compile Include="Admin.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AdminType.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Areas\Admin\Controllers\AdminsController.cs" />
     <Compile Include="Areas\Admin\Models\AdminModel.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -257,6 +263,9 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Areas\League\Controllers\LeagueModelController.cs" />
+    <Compile Include="Areas\League\LeagueAreaRegistration.cs" />
+    <Compile Include="Areas\League\Models\LeagueModel.cs" />
     <Compile Include="Areas\Ranking\Controllers\RankingModelsController.cs" />
     <Compile Include="Areas\Ranking\RankingAreaRegistration.cs" />
     <Compile Include="Areas\Register\Controllers\RegisterModelsController.cs" />
@@ -276,25 +285,65 @@
     <Compile Include="Areas\Sport\SportAreaRegistration.cs" />
     <Compile Include="Areas\Support\Controllers\SupportModelsController.cs" />
     <Compile Include="Areas\Support\SupportAreaRegistration.cs" />
-    <Compile Include="AspNetRole.cs" />
-    <Compile Include="AspNetUser.cs" />
-    <Compile Include="AspNetUserClaim.cs" />
-    <Compile Include="AspNetUserLogin.cs" />
-    <Compile Include="Contact.cs" />
+    <Compile Include="Areas\Team\Controllers\TeamModelsController.cs" />
+    <Compile Include="Areas\Team\Models\TeamModel.cs" />
+    <Compile Include="Areas\Team\TeamAreaRegistration.cs" />
+    <Compile Include="Areas\Vendor\Controllers\VendorModelsController.cs" />
+    <Compile Include="Areas\Vendor\Models\VendorModel.cs" />
+    <Compile Include="Areas\Vendor\VendorAreaRegistration.cs" />
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Competition.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MeController.cs" />
     <Compile Include="Areas\Format\Models\FormatModel.cs" />
-    <Compile Include="Format.cs" />
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Event.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Format.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="League.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="LeagueSportsManager.cs" />
+    <Compile Include="LeagueSportsManagerContext.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeagueSportsManagerContext.Context.tt</DependentUpon>
+    </Compile>
     <Compile Include="LeagueSportsManagerContext.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="LeagueSportsManagerContext.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeagueSportsManagerContext.edmx</DependentUpon>
     </Compile>
     <Compile Include="Migrations\201606232314172_reinit.cs" />
     <Compile Include="Migrations\201606232314172_reinit.Designer.cs">
@@ -319,19 +368,40 @@
     <Compile Include="Areas\Ranking\Models\RankingModel.cs" />
     <Compile Include="Areas\Register\Models\RegisterModel.cs" />
     <Compile Include="Areas\Result\Models\ResultModel.cs" />
-    <Compile Include="Ranking.cs" />
-    <Compile Include="Register.cs" />
-    <Compile Include="Result.cs" />
+    <Compile Include="Ranking.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Register.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Result.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Results\ChallengeResult.cs" />
     <Compile Include="Areas\Sport\Models\SportModel.cs" />
-    <Compile Include="Role.cs" />
-    <Compile Include="RoleType.cs" />
-    <Compile Include="Schedule.cs" />
-    <Compile Include="Score.cs" />
-    <Compile Include="Sport.cs" />
+    <Compile Include="Role.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RoleType.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Score.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sport.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
     <Compile Include="Startup.cs" />
     <Compile Include="Areas\Support\Models\SupportModel.cs" />
-    <Compile Include="Support.cs" />
+    <Compile Include="Support.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Vendor.cs">
+      <DependentUpon>LeagueSportsManagerContext.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -342,53 +412,29 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="index.html" />
-    <Content Include="LeagueSportsManagerContext.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>LeagueSportsManagerContext.cs</LastGenOutput>
+    <Content Include="Areas\Vendor\Views\web.config" />
+    <Content Include="Areas\Team\Views\web.config" />
+    <Content Include="Areas\League\Views\web.config" />
+    <EntityDeploy Include="LeagueSportsManagerContext.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>LeagueSportsManagerContext.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="LeagueSportsManagerContext.edmx.diagram">
+      <DependentUpon>LeagueSportsManagerContext.edmx</DependentUpon>
     </Content>
-    <Content Include="Scripts\ai.0.15.0-build58334.js" />
-    <Content Include="Scripts\ai.0.15.0-build58334.min.js" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Areas\HelpPage\Views\Web.config" />
-    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
-    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Areas\Sport\Views\web.config" />
-    <Content Include="Areas\Role\Views\web.config" />
-    <Content Include="Areas\Format\Views\web.config" />
-    <Content Include="Areas\Schedule\Views\web.config" />
-    <Content Include="Areas\Score\Views\web.config" />
-    <Content Include="Areas\Result\Views\web.config" />
-    <Content Include="Areas\Ranking\Views\web.config" />
-    <Content Include="Areas\Register\Views\web.config" />
-    <Content Include="Areas\Admin\Views\web.config" />
-    <Content Include="Areas\Support\Views\web.config" />
-    <Content Include="Areas\Role\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Competition\Views\web.config" />
-    <Content Include="Areas\Event\Views\web.config" />
     <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\GESX64P6.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="LeagueSportsManagerContext.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LeagueSportsManagerContext.edmx</DependentUpon>
+      <LastGenOutput>LeagueSportsManagerContext.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="LeagueSportsManagerContext.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>LeagueSportsManagerContext.edmx</DependentUpon>
+      <LastGenOutput>LeagueSportsManagerContext.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\knockout-2.3.0.debug.js" />
@@ -452,6 +498,7 @@
     <Folder Include="Areas\Event\Controllers\" />
     <Folder Include="Areas\Event\Views\Shared\" />
     <Folder Include="Areas\Format\Views\Shared\" />
+    <Folder Include="Areas\League\Views\Shared\" />
     <Folder Include="Areas\Ranking\Views\Shared\" />
     <Folder Include="Areas\Register\Views\Shared\" />
     <Folder Include="Areas\Result\Views\Shared\" />
@@ -459,6 +506,8 @@
     <Folder Include="Areas\Score\Views\Shared\" />
     <Folder Include="Areas\Sport\Views\Shared\" />
     <Folder Include="Areas\Support\Views\Shared\" />
+    <Folder Include="Areas\Team\Views\Shared\" />
+    <Folder Include="Areas\Vendor\Views\Shared\" />
     <Folder Include="Scripts\LSM\" />
   </ItemGroup>
   <ItemGroup>
@@ -470,6 +519,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
@@ -488,6 +538,7 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
