@@ -13,106 +13,115 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/23/2019 20:54:00</publishTime>
     </File>
     <File Include="Areas/Admin/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Competition/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Event/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Format/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/HelpPage.css">
       <publishTime>07/23/2019 20:54:00</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/Web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
       <publishTime>07/23/2019 20:54:00</publishTime>
     </File>
+    <File Include="Areas/League/Views/web.config">
+      <publishTime>08/11/2019 10:43:34</publishTime>
+    </File>
     <File Include="Areas/Ranking/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Register/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Result/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Role/Views/Shared/_Layout.cshtml">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Role/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Schedule/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Score/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Sport/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
     </File>
     <File Include="Areas/Support/Views/web.config">
-      <publishTime>07/23/2019 20:54:00</publishTime>
+      <publishTime>07/23/2019 20:53:57</publishTime>
+    </File>
+    <File Include="Areas/Team/Views/web.config">
+      <publishTime>08/11/2019 10:42:54</publishTime>
+    </File>
+    <File Include="Areas/Vendor/Views/web.config">
+      <publishTime>08/11/2019 10:41:50</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>07/23/2019 20:54:01</publishTime>
@@ -124,10 +133,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/23/2019 20:54:01</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>07/31/2019 10:03:37</publishTime>
+      <publishTime>08/12/2019 09:01:39</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>07/31/2019 10:03:37</publishTime>
+      <publishTime>08/12/2019 09:01:39</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>07/23/2019 20:54:02</publishTime>
@@ -136,10 +145,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/23/2019 20:54:01</publishTime>
     </File>
     <File Include="bin/LeagueSportsManager.dll">
-      <publishTime>07/31/2019 10:03:19</publishTime>
+      <publishTime>08/12/2019 09:00:27</publishTime>
     </File>
     <File Include="bin/LeagueSportsManager.pdb">
-      <publishTime>07/31/2019 10:03:19</publishTime>
+      <publishTime>08/12/2019 09:00:27</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
       <publishTime>07/23/2019 20:54:02</publishTime>
@@ -309,11 +318,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="index.html">
       <publishTime>07/24/2019 06:30:20</publishTime>
     </File>
+    <File Include="LeagueSportsManagerContext.edmx.diagram">
+      <publishTime>08/11/2019 16:21:16</publishTime>
+    </File>
     <File Include="packages.config">
       <publishTime>07/23/2019 20:54:01</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>07/31/2019 10:03:22</publishTime>
+      <publishTime>08/12/2019 09:01:29</publishTime>
     </File>
     <File Include="Scripts/ai.0.15.0-build58334.js">
       <publishTime>07/23/2019 20:54:00</publishTime>
@@ -463,7 +475,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/23/2019 20:54:01</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/23/2019 20:54:01</publishTime>
+      <publishTime>08/11/2019 16:41:49</publishTime>
     </File>
   </ItemGroup>
 </Project>

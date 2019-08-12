@@ -282,3 +282,4 @@ C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.csp
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.csproj.CopyComplete
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.dll
 C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.pdb
+C:\src\LeagueSportsManager\LeagueSportsManager\obj\Debug\LeagueSportsManager.csprojAssemblyReference.cache

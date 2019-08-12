@@ -90,7 +90,6 @@ C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsM
 C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.pdb
 C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.reinit.resources
 C:\Users\marty.GESLOCAL2.000\Documents\Visual Studio 2015\Projects\LeagueSportsManager\LeagueSportsManager\obj\Release\LeagueSportsManager.Migrations.detailregister.resources
-C:\src\LeagueSportsManager\LeagueSportsManager\bin\ApplicationInsights.config
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\csc.exe
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
 C:\src\LeagueSportsManager\LeagueSportsManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
